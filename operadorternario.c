@@ -25,6 +25,15 @@ printf("Você é maior de idade\n");
 else
 printf("Você é menor de idade\n");*/
 
+//terceiro código comparando numeros para ver qual o maior
+
+ int num1 = 10, num2 = 20;
+   int maior;
+
+   num1 > num2 ? (maior = num1) : (maior = num2);
+
+   printf("O número maior é: %i\n",maior);
+
 
     return 0;
 }
